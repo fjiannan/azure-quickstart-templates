@@ -100,7 +100,7 @@
     },
     "kubernetesVersion": {
       "type": "string",
-      "defaultValue": "1.21.7",
+      "defaultValue": "1.25.6",
       "allowedValues": [
         "1.19.11",
         "1.19.13",
@@ -121,7 +121,7 @@
       "metadata": {
         "description": "URL to a public git repository that includes a Dockerfile."
       },
-      "defaultValue": "https://github.com/Azure/azure-quickstart-templates"
+      "defaultValue": "https://github.com/fjiannan/azure-quickstart-templates"
     },
     "_artifactsLocation": {
       "type": "string",
